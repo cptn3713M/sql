@@ -1,0 +1,178 @@
+
+--------------------------------
+show databases;---------->st1
+create database naam;------->st1
+drop database naam;------>st 1
+use naam;--->tabel m jane k liye use
+show table;----->database ki tables dekhne k liye
+-------------------------------------------
+select * from tbname;---->tabels select karke open karne k liye..
+create table tbname (id int, username varchar(255),pasword varchar(255));
+-----------------------
+update tb
+set coln="value"
+where id=45a3;
+-----------------
+alter table tb(
+add coln datatype(size))
+alter table tb(
+drop coln ;
+-----------------
+{delete the row}
+ delete from employe where id="123";
+---------------------
+{add new coln}
+{agar koi coln genrate hoga to row b create hogi,,
+,par value coln m jayagi baki coln null honge}
+insert into employe(full_name)
+    -> values('ndm');
+---------------
+[[[[any command]]]
+select coln from tb
+where coln=any(select coln)
+select distinct username from tb;
+----------------
+primary key]id ka auto increment hoga]]]
+create table emp(
+id int not null auto_increment,
+username varchar(255),
+add varchar(255),
+primary key(id));
+------------
+[[[[order settting]]]]
+select*from tb order by username;
+select*from tb order by username desc;[[[[for deascending]]
+select*from tb order by username asc;[[for asscending]]
+--------------
+min or max cmd
+select min(id)
+from tbname;
+select max(coln name)
+from tbname;
+-------------fr
+average or count
+select avg(id)
+from tbname;
+select count(coln name)
+from tbname;
+------------------------
+[foreign key]]]v
+create table jack(
+    -> jackid int not null,
+    -> username varchar(255),
+    -> password varchar(255),
+    -> jackage int,
+    -> primary key(jackid),
+    -> foreign key(jackage) references tb(id));
+
+--------------
+[[tables elemets show karne k liye,,,
+limit se limitted hi print honge jitne hum chahte h]]]
+select*from persons
+    -> where city="ddn"
+    -> limit 2;
+----------------
+target no one-->create a website who can take a test of btech students all its subjects
+powercfg/batteryreport==>for battery health
+-------------linux-----------
+ 
+ls: List files and directories.
+pwd: Print the current working directory.
+cd: Change the current directory.
+mkdir: Create a new directory.
+rm: Remove files or directories.
+cp: Copy files or directories.
+mv: Move or rename files or directories.
+cat: Display the contents of a file.
+grep: Search for a pattern in files.
+nano or vi: Text editors for creating and editing files.
+chmod: Change file permissions.
+chown: Change file ownership.
+ps: Display information about running processes.
+top: Monitor system processes and resource usage.
+kill: Terminate processes.
+ping: Send ICMP echo requests to a host.
+ifconfig or ip: Configure network interfaces.
+ssh: Securely access remote systems.
+scp: Securely copy files between systems.
+wget or curl: Download files from the internet.
+df: Display disk space usage.
+du: Display file and directory space usage.
+tar: Create and extract compressed archives.
+gzip or gunzip: Compress or decompress files.
+find: Search for files and directories.
+history: Display command history.
+man: Display manual pages for commands.
+sudo: Execute commands with superuser privileges.
+useradd: Add a new user.
+passwd: Change user password.
+who: Display information about logged-in users.
+date: Display or set system date and time.
+uptime: Display system uptime.
+df: Display disk space usage.
+free: Display memory usage.
+chmod: Change file permissions.
+chown: Change file ownership.
+apt or yum: Package managers for installing and managing software packages.
+lsblk: List block devices and their attributes.
+mkfs: Create a file system on a disk partition.
+mount: Mount a file system.
+umount: Unmount a mounted file system.
+ps aux: Detailed process listing.
+netstat or ss: Network statistics and connections.
+nc: Network utility for reading and writing data across network connections.
+lsof: List open files and processes using them.
+tail: Display the end of a file.
+head: Display the beginning of a file.
+sed: Stream editor for text manipulation.
+awk: Text processing tool for pattern scanning and text extraction.
+wget: Download files from the internet.
+curl: Transfer data with URLs.
+scp: Securely copy files between hosts.
+rsync: Synchronize files and directories.
+gzip / gunzip: Compress or decompress files.
+tar: Manipulate archive files.
+ln: Create hard or symbolic links.
+df: Display disk space usage.
+du: Display file and directory space usage.
+jobs: Display and manage background jobs.
+fg: Bring a background job to the foreground.
+bg: Resume a background job.
+cron: Schedule tasks to run at specific intervals.
+at: Execute commands at a specified time.
+watch: Execute a command periodically and display results.
+killall: Terminate processes by name.
+uptime: Display system uptime and load averages.
+last: Display a list of recent logins.
+whoami: Display the current user's name.
+uname: Display system information.
+file: Determine file type.
+basename: Display filename without directory.
+dirname: Display directory name of a file path.
+echo: Print text to the terminal.
+sort: Sort lines of text files.
+uniq: Display or filter duplicate lines in a file.
+wc: Count lines, words, and characters in a file.
+cut: Remove sections from lines of files.
+paste: Merge lines of files.
+tr: Translate or delete characters.
+diff: Compare files line by line.
+patch: Apply differences between files.
+lshw: List hardware information.
+lsusb: List USB devices.
+lspci: List PCI devices.
+lsmod: List loaded kernel modules.
+modprobe: Add or remove kernel modules.
+dmesg: Display kernel and boot messages.
+shutdown: Shutdown or restart the system.
+reboot: Reboot the system.
+poweroff: Power off the system.
+history: Display command history.
+clear: Clear the terminal screen.
+hostname: Display or set the system's hostname.
+mount: Mount a filesystem.
+umount: Unmount a mounted filesystem.
+chmod: Change file permissions.
+chown: Change file ownership.
+chgrp: Change group ownership of files.
+passwd: Change user password.
